@@ -1,0 +1,2 @@
+/usr/bin/ar qc "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgtest.a" "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+/usr/bin/ranlib "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgtest.a"
