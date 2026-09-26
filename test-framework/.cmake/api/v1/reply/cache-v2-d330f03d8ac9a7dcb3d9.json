@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+			"value" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -135,7 +135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles/pkgRedirects"
+			"value" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+			"value" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+			"value" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework"
 		},
 		{
 			"name" : "googletest-download_IS_TOP_LEVEL",
@@ -455,7 +455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+			"value" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework"
 		}
 	],
 	"kind" : "cache",

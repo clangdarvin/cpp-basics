@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" AND EXISTS "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt" AND
-  "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" IS_NEWER_THAN "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt")
+if(EXISTS "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" AND EXISTS "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt" AND
+  "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" IS_NEWER_THAN "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt'"
+    "'/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: '/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -37,7 +37,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "/usr/bin/git"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/google/googletest.git" "googletest-src"
-    WORKING_DIRECTORY "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+    WORKING_DIRECTORY "/home/clangdarvin/CLionProjects/cpp_basics/test-framework"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -53,7 +53,7 @@ endif()
 execute_process(
   COMMAND "/usr/bin/git"
           checkout "release-1.12.0" --
-  WORKING_DIRECTORY "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src"
+  WORKING_DIRECTORY "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
@@ -66,22 +66,22 @@ if(init_submodules)
   execute_process(
     COMMAND "/usr/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src"
+    WORKING_DIRECTORY "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: '/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt" "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt'")
 endif()

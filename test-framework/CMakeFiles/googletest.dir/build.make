@@ -53,10 +53,10 @@ RM = /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+CMAKE_SOURCE_DIR = /home/clangdarvin/CLionProjects/cpp_basics/test-framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+CMAKE_BINARY_DIR = /home/clangdarvin/CLionProjects/cpp_basics/test-framework
 
 # Utility rule file for googletest.
 
@@ -77,60 +77,60 @@ CMakeFiles/googletest-complete: googletest-prefix/src/googletest-stamp/googletes
 CMakeFiles/googletest-complete: googletest-prefix/src/googletest-stamp/googletest-build
 CMakeFiles/googletest-complete: googletest-prefix/src/googletest-stamp/googletest-install
 CMakeFiles/googletest-complete: googletest-prefix/src/googletest-stamp/googletest-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'googletest'"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E make_directory "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles/googletest-complete"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'googletest'"
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E make_directory /home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles/googletest-complete
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-done
 
 googletest-prefix/src/googletest-stamp/googletest-update:
 .PHONY : googletest-prefix/src/googletest-stamp/googletest-update
 
 googletest-prefix/src/googletest-stamp/googletest-build: googletest-prefix/src/googletest-stamp/googletest-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'googletest'"
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'googletest'"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-build
 
 googletest-prefix/src/googletest-stamp/googletest-configure: googletest-prefix/tmp/googletest-cfgcmd.txt
 googletest-prefix/src/googletest-stamp/googletest-configure: googletest-prefix/src/googletest-stamp/googletest-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'googletest'"
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'googletest'"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-configure
 
 googletest-prefix/src/googletest-stamp/googletest-download: googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt
 googletest-prefix/src/googletest-stamp/googletest-download: googletest-prefix/src/googletest-stamp/googletest-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'googletest'"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/tmp/googletest-gitclone.cmake"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'googletest'"
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/tmp/googletest-gitclone.cmake
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-download
 
 googletest-prefix/src/googletest-stamp/googletest-install: googletest-prefix/src/googletest-stamp/googletest-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'googletest'"
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'googletest'"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-install
 
 googletest-prefix/src/googletest-stamp/googletest-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'googletest'"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -Dcfgdir= -P "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/tmp/googletest-mkdirs.cmake"
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'googletest'"
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -Dcfgdir= -P /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/tmp/googletest-mkdirs.cmake
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-mkdir
 
 googletest-prefix/src/googletest-stamp/googletest-patch: googletest-prefix/src/googletest-stamp/googletest-patch-info.txt
 googletest-prefix/src/googletest-stamp/googletest-patch: googletest-prefix/src/googletest-stamp/googletest-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'googletest'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'googletest'"
 	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
-	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-patch"
+	/home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-patch
 
 googletest-prefix/src/googletest-stamp/googletest-update:
 .PHONY : googletest-prefix/src/googletest-stamp/googletest-update
 
 googletest-prefix/src/googletest-stamp/googletest-test: googletest-prefix/src/googletest-stamp/googletest-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'googletest'"
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'googletest'"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo_append
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E touch /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/src/googletest-stamp/googletest-test
 
 googletest-prefix/src/googletest-stamp/googletest-update: googletest-prefix/tmp/googletest-gitupdate.cmake
 googletest-prefix/src/googletest-stamp/googletest-update: googletest-prefix/src/googletest-stamp/googletest-update-info.txt
 googletest-prefix/src/googletest-stamp/googletest-update: googletest-prefix/src/googletest-stamp/googletest-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'googletest'"
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src" && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-prefix/tmp/googletest-gitupdate.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'googletest'"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src && /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-prefix/tmp/googletest-gitupdate.cmake
 
 CMakeFiles/googletest.dir/codegen:
 .PHONY : CMakeFiles/googletest.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/googletest.dir/clean:
 .PHONY : CMakeFiles/googletest.dir/clean
 
 CMakeFiles/googletest.dir/depend:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/test-framework" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles/googletest.dir/DependInfo.cmake" "--color=$(COLOR)" googletest
+	cd /home/clangdarvin/CLionProjects/cpp_basics/test-framework && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/clangdarvin/CLionProjects/cpp_basics/test-framework /home/clangdarvin/CLionProjects/cpp_basics/test-framework /home/clangdarvin/CLionProjects/cpp_basics/test-framework /home/clangdarvin/CLionProjects/cpp_basics/test-framework /home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles/googletest.dir/DependInfo.cmake "--color=$(COLOR)" googletest
 .PHONY : CMakeFiles/googletest.dir/depend
 

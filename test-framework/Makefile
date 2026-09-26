@@ -57,10 +57,10 @@ RM = /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+CMAKE_SOURCE_DIR = /home/clangdarvin/CLionProjects/cpp_basics/test-framework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+CMAKE_BINARY_DIR = /home/clangdarvin/CLionProjects/cpp_basics/test-framework
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles /home/clangdarvin/CLionProjects/cpp_basics/test-framework//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clangdarvin/CLionProjects/cpp_basics/test-framework/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

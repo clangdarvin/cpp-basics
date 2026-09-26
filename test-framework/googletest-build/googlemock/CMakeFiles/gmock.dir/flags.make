@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googlemock/include" -I"/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googlemock" -isystem "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googletest/include" -isystem "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googletest"
+CXX_INCLUDES = -I/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googlemock/include -I/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googlemock -isystem /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googletest/include -isystem /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googletest
 
 CXX_FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

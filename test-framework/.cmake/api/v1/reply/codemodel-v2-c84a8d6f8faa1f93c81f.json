@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework",
-		"source" : "/home/clangdarvin/CLionProjects/C++ Basics/test-framework"
+		"build" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework",
+		"source" : "/home/clangdarvin/CLionProjects/cpp_basics/test-framework"
 	},
 	"version" : 
 	{

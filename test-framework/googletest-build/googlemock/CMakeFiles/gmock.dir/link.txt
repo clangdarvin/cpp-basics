@@ -1,2 +1,2 @@
-/usr/bin/ar qc "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgmock.a" "CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-/usr/bin/ranlib "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgmock.a"
+/usr/bin/ar qc /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/lib/libgmock.a "CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+/usr/bin/ranlib /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/lib/libgmock.a

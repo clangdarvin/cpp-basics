@@ -31,7 +31,10 @@ struct Consumable {
 /******************************************************************************/
 
 inline int initWindow(sf::RenderWindow& window) {
-    window.create(sf::VideoMode(SCENE_WIDTH, SCENE_HEIGHT), "Space Game");
+    window.create(
+    sf::VideoMode({SCENE_WIDTH, SCENE_HEIGHT}),
+    "Space Game"
+);
     window.setFramerateLimit(60);
     return 0;
 }
@@ -42,15 +45,20 @@ inline int initBackground(sf::Sprite& sprite, sf::Texture& texture) {
     }
     texture.setRepeated(true);
     sprite.setTexture(texture);
-    sprite.setTextureRect(sf::IntRect(0, 0, SCENE_WIDTH, SCENE_HEIGHT));
+    sprite.setTextureRect(
+    sf::IntRect(
+        {0, 0},
+        {static_cast<int>(SCENE_WIDTH), static_cast<int>(SCENE_HEIGHT)}
+    )
+);
     return 0;
 }
 
 
 inline int initPlayer(sf::CircleShape& shape, sf::Texture& texture) {
     shape.setRadius(RADIUS);
-    shape.setOrigin(RADIUS, RADIUS);
-    shape.setPosition(PLAYER_START_X, PLAYER_START_Y);
+    shape.setOrigin({RADIUS, RADIUS});
+    shape.setPosition({PLAYER_START_X, PLAYER_START_Y});
     if (!texture.loadFromFile("resources/planet.png")) {
         return 1;
     }
@@ -69,8 +77,8 @@ inline int initConsumableTexture(sf::Texture& texture) {
 
 inline int initConsumable(sf::CircleShape& shape, const Circle& circle, const sf::Texture& texture) {
     shape.setRadius(circle.radius);
-    shape.setOrigin(circle.radius, circle.radius);
-    shape.setPosition(circle.center.x, circle.center.y);
+    shape.setOrigin({circle.radius, circle.radius});
+    shape.setPosition({circle.center.x, circle.center.y});
     shape.setTexture(&texture);
     return 0;
 }

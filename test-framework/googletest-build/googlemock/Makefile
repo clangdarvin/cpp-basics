@@ -57,10 +57,10 @@ RM = /home/clangdarvin/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/clangdarvin/CLionProjects/C++ Basics"
+CMAKE_SOURCE_DIR = /home/clangdarvin/CLionProjects/cpp_basics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/CMakeFiles" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock//CMakeFiles/progress.marks"
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/CMakeFiles" 0
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/CMakeFiles /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock//CMakeFiles/progress.marks
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/clean"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,45 +148,45 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/preinstall"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/preinstall"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-/home/clangdarvin/CLionProjects/C++\ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule"
-.PHONY : /home/clangdarvin/CLionProjects/C++\ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
+/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule:
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
+.PHONY : /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
-gmock: /home/clangdarvin/CLionProjects/C++\ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
+gmock: /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : gmock
 
 # fast build rule for target.
 gmock/fast:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 # Convenience name for target.
-/home/clangdarvin/CLionProjects/C++\ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule"
-.PHONY : /home/clangdarvin/CLionProjects/C++\ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
+/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule:
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
+.PHONY : /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
-gmock_main: /home/clangdarvin/CLionProjects/C++\ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
+gmock_main: /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : gmock_main
 
 # fast build rule for target.
 gmock_main/fast:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -194,7 +194,7 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -202,7 +202,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -210,7 +210,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -218,7 +218,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -226,7 +226,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -234,7 +234,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(MAKE) $(MAKESILENT) -f /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

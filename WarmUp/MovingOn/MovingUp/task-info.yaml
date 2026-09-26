@@ -4,27 +4,27 @@ files:
   - name: src/point.cpp
     visible: true
     placeholders:
-      - offset: 87
-        length: 10
+      - offset: 79
+        length: 0
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 87
         initialized_from_dependency: false
         encrypted_possible_answer: INFFZm5M9eNeUYNHh0poE4IjA6Qhliit+YXwuyp8KiidJgZf8F5m/TN12meGrfFZ
-        selected: false
+        selected: true
         status: Unchecked
-      - offset: 179
-        length: 10
+      - offset: 190
+        length: 31
         placeholder_text: /* TODO */
         initial_state:
           length: 10
           offset: 179
         initialized_from_dependency: false
         encrypted_possible_answer: pelbdSGe8NgHG+byI/ljy5v/ZQLq/c9yOSKURsdX+MpMLssF9QyW3PScRwJi68X/
-        selected: false
+        selected: true
         status: Unchecked
-      - offset: 282
+      - offset: 320
         length: 8
         placeholder_text: position
         initial_state:
@@ -32,7 +32,7 @@ files:
           offset: 282
         initialized_from_dependency: false
         encrypted_possible_answer: SKJuYDb16PU7jYutTiTlSfCAdk8sm41OEn66k7L3tCTPDWPR+FlDsnI2q+usN94C
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: src/move.cpp
@@ -50,7 +50,7 @@ files:
         initial_state:
           length: 8
           offset: 69
-        initialized_from_dependency: false
+        initialized_from_dependency: true
         encrypted_possible_answer: /IQIMKSrhsIgpemC4obiThpE863msPE3k23akoUEhdM=
         selected: false
         status: Unchecked
@@ -67,4 +67,8 @@ files:
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScfBp0gzdxWOmXvQVdyNmeO1od7CG7zxLgNUP4LzKxLBCzkhQ/viewform?usp=pp_url&entry.2103429047=Warm+Up/Moving+On/Moving+Up
 status: Unchecked
+feedback:
+  message: "No tests have run. For more information, see <a href=\"https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/troubleshooting-guide.html#no_tests_have_run\"\
+    >the Troubleshooting guide</a>"
+  time: "Sat, 26 Sep 2026 13:33:44 UTC"
 record: -1

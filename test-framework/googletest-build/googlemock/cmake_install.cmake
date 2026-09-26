@@ -1,4 +1,4 @@
-# Install script for directory: /home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googlemock
+# Install script for directory: /home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,34 +43,34 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googlemock/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/lib/libgmock.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/lib/libgmock_main.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googletest/generated/gmock.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googletest/cmake_install.cmake")
+  include("/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googletest/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googlemock/install_local_manifest.txt"
+  file(WRITE "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googlemock/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

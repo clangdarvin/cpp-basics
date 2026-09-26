@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/bin/libgtestpdb_debug_postfix-NOTFOUND.pdb"
-  "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgtest.a"
+  "/home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/bin/libgtestpdb_debug_postfix-NOTFOUND.pdb"
+  "/home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/lib/libgtest.a"
   "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   "CMakeFiles/gtest.dir/src/gtest-all.cc.o.d"
 )

@@ -17,16 +17,16 @@ Point2D getDirection(Direction direction);
 
 inline Point2D calculateVelocity() {
     Point2D velocity = { 0.0f, 0.0f };
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up)) {
         velocity = add(velocity, getDirection(North));
     }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right)) {
         velocity = add(velocity, getDirection(East));
     }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down)) {
         velocity = add(velocity, getDirection(South));
     }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left)) {
         velocity = add(velocity, getDirection(West));
     }
     velocity = mul(SPEED, velocity);

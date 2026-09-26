@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/clangdarvin/CLionProjects/C++ Basics/cmake-build-debug/lib/libgmock.a"
+  "/home/clangdarvin/CLionProjects/cpp_basics/cmake-build-debug/lib/libgmock.a"
 )

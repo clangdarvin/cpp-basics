@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-src/googletest/src/gtest_main.cc" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "/home/clangdarvin/CLionProjects/C++ Basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
+  "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-src/googletest/src/gtest_main.cc" "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "/home/clangdarvin/CLionProjects/cpp_basics/test-framework/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
